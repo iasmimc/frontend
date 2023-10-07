@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.talmain {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.talbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.talfooter {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.talUsers {
+  margin-bottom: 40px;
+  padding-left: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.talData {
+}
+
+.talOutrasCoisas {
+  width: 100vw;
+}
+
+.talpai {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 2rem;
+}
+
+.talpai div span {
+  font-weight: 600;
+}
+
+.talMensagem {
+  width: 250px;
+  background-color: rgb(175, 183, 190);
+  border-radius: 24px;
+  padding: 2rem;
+}
+
+.minha {
+  align-self: flex-end;
+  background-color: rgb(164, 215, 167);
+}
+
+.talcaixa {
+  padding: 16px;
+  display: flex;
+  width: 100vw;
+  border-top: 1px solid rgba(189, 185, 185, 0.457);
+}
+
+.tal-input {
+  flex: 1;
+}
+
+.whatsapp-chat {
+  background-color: #dcf8c6; /* Cor de fundo do balão */
+  color: #000; /* Cor do texto */
+  font-size: 16px;
+  margin: 10px; /* Espaçamento externo do balão */
+  padding: 10px; /* Espaçamento interno do balão */
+  border-radius: 10px; /* Cantos arredondados do balão */
+  clear: both; /* Limpar flutuações para alinhar corretamente balões de chat */
+}
+
+/* Estilos para o balão de chat à direita (enviado pelo usuário) */
+.whatsapp-chat.sent {
+  background-color: #25d366; /* Cor de fundo do balão enviado */
+  color: #fff; /* Cor do texto do balão enviado */
+  float: right; /* Alinhar à direita */
+  margin-left: 40px;
+}
+
+/* Exemplo de estilo para o balão de chat recebido (à esquerda) */
+.whatsapp-chat.received {
+  background-color: #e5e5e5; /* Cor de fundo do balão recebido */
+  color: #000; /* Cor do texto do balão recebido */
+  float: left; /* Alinhar à esquerda */
+  margin-right: 40px;
+}
+
+/* Limpar elementos flutuantes após o balão de chat */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.whatsapp-input {
+  width: 100%;
+  padding: 10px;
+  margin-right: 16px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.whatsapp-input:focus {
+  border-color: #25d366; /* Cor da borda ao focar */
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 32px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  font-size: 16px;
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  text-decoration: none; /* Remover sublinhado de link */
+  border-radius: 5px; /* Cantos arredondados do botão */
+  border: none; /* Remover borda do botão */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e; /* Cor de fundo ao passar o mouse */
+}

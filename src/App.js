@@ -1,5 +1,6 @@
 import React from "react";
-import ChatApp from "./frontend/ChatApp.jsx";
+import ChatApp from "./frontend/Chatapp";
+import "./App.css";
 
 function App() {
   return (
